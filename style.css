@@ -1,0 +1,150 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.main-menu-stripe {
+    background-color: #14424c;
+}
+
+.main-menu-single {
+    padding: 10px 20px;
+}
+
+.main-menu-single-click {
+    background-color: #c85d1b;
+    border-radius: 50px;
+}
+
+.flex-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no-max-width {
+    max-width: none;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-white {
+    color: white;
+}
+
+.padding-sm {
+    padding: 10px;
+}
+
+.padding-md {
+    padding: 20px;
+}
+
+.padding-lg {
+    padding: 40px;
+}
+
+.padding-vertical-lg {
+    padding: 40px 0 40px 0;
+}
+
+.content-menu-media {
+    padding: 40px;
+}
+
+/* ipad pro responsive */
+@media (max-width: 1024px) {
+    .content-menu-media {
+        padding: 20px;
+    }
+}
+/* ipad pro responsive */
+
+.no-padding-right {
+    padding-right: 0 ;
+}
+
+.responsive-image {
+    width: 100%;
+    height: 500px;
+    display: block;
+    overflow: hidden;
+}
+
+.innerDropdownRow {
+    display: grid;
+}
+
+.d-none {
+    display: none;
+}
+
+.margin-right-sm {
+    margin-right: 10px;
+}
+
+.margin-left-lg {
+    margin-left: 40px;
+}
+
+.row-content-center {
+    justify-content: center;
+}
+
+.js--active-innerDropdown {
+    font-weight: 700;
+}
+
+.innerDropdownBtn {
+    margin-bottom: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.innerDropdownLink {
+    margin-bottom: 10px;
+}
+
+.innerDropdownLink:hover {
+    font-weight: 600;
+}
+
+.currently-browsing {
+    color: #adabab;
+    font-size: small;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.chevron-right {
+    width: 15px;
+}
+
+/* dropdown */
+.dropdown-menu-custom {
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 44px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+/* dropdown */
+
+
+/* Debug */
+
+.debug-borders {
+    border: 1px solid red
+}
+
+/* Debug */
